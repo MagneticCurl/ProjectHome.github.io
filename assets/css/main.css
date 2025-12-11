@@ -2049,20 +2049,27 @@ input, select, textarea {
 			color: inherit;
 
 		}
-    #main .thumb .image {
-    background: none !important;
-    background-image: none !important;
-    position: relative !important;
+   #main .thumb {
+    display: block !important;
+}
+
+#main .thumb .image {
+    height: auto !important;      /* Remove template fixed height */
+    max-height: none !important;
+    background: none !important;  /* Remove background system */
     overflow: hidden !important;
 }
 
-/* Make IMG behave normally and scale properly */
-#main .thumb .image img {
+#main .thumb .image img,
+#main .thumb .image video {
     width: 100% !important;
     height: auto !important;
+    object-fit: contain !important;   /* No cropping */
     display: block !important;
-    object-fit: contain !important;  /* change to 'cover' if you want full crop */
-    position: relative !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
+
 
 
