@@ -2059,7 +2059,7 @@ input, select, textarea {
 /* Thumbnails: consistent height (adjust if needed) */
 #main article.thumb .image {
     width: 100% !important;
-    height: 200px !important;  /* <<< ADJUST THIS FOR THUMBNAIL SIZE */
+    height: 320px !important;  /* <<< ADJUST THIS FOR THUMBNAIL SIZE */
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -2090,6 +2090,7 @@ input, select, textarea {
         height: 180px !important;
     }
 }
+
 
 
 
