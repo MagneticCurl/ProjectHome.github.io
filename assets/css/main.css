@@ -2058,14 +2058,14 @@ input, select, textarea {
 
 /* Thumbnails: consistent height (adjust if needed) */
 #main article.thumb .image {
-    width: 150% !important;
+    width: 100% !important;
     height: 322px !important;  /* <<< ADJUST THIS FOR THUMBNAIL SIZE */
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     overflow: hidden !important;
     background: #111 !important;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 /* Fit image inside without cropping */
@@ -2109,6 +2109,7 @@ input, select, textarea {
     object-fit: contain; 
     object-position: center;
 }
+
 
 
 
