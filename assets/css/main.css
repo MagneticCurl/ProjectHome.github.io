@@ -2150,9 +2150,8 @@ input, select, textarea {
 }
 #main article.thumb .image img {
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
     object-position: center;
 }
 
