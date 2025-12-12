@@ -2058,7 +2058,7 @@ input, select, textarea {
 
 /* Thumbnails: consistent height (adjust if needed) */
 #main article.thumb .image {
-    width: 100% !important;
+    width: 150% !important;
     height: 322px !important;  /* <<< ADJUST THIS FOR THUMBNAIL SIZE */
     display: flex !important;
     justify-content: center !important;
@@ -2109,6 +2109,7 @@ input, select, textarea {
     object-fit: contain; 
     object-position: center;
 }
+
 
 
 
